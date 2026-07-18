@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../js sandbox/.idea/js sandbox.iml" filepath="$PROJECT_DIR$/../js sandbox/.idea/js sandbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/freecodecamp js sandbox.iml" filepath="$PROJECT_DIR$/.idea/freecodecamp js sandbox.iml" />
     </modules>
   </component>
 </project>
