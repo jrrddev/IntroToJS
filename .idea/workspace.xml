@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7917e739-3c2d-4def-81aa-f012a5c020c9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../js sandbox/.idea/freecodecamp js sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../js sandbox/.idea/js sandbox.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js sandbox/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../js sandbox/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js sandbox/script4.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js sandbox/script4.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../js sandbox" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3G7TFnuuyDzAdyU2ILNObJgfBgB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.script.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jrrd/Documents/!jrrd projects/sandbox/freecodecamp js sandbox&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.com.github.izhangzhihao.rainbow.brackets.settings.چḸ&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.25134.101" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7917e739-3c2d-4def-81aa-f012a5c020c9" name="Changes" comment="" />
+      <created>1783321506444</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783321506444</updated>
+      <workItem from="1783321507500" duration="7519000" />
+      <workItem from="1783385472147" duration="4663000" />
+      <workItem from="1783475208270" duration="591000" />
+      <workItem from="1783479542508" duration="1000" />
+      <workItem from="1783510538558" duration="3000" />
+      <workItem from="1783647113436" duration="4647000" />
+      <workItem from="1783675592474" duration="638000" />
+      <workItem from="1783696439636" duration="17000" />
+      <workItem from="1783915287594" duration="825000" />
+      <workItem from="1783930168738" duration="2000" />
+      <workItem from="1783935267754" duration="2689000" />
+      <workItem from="1783985502327" duration="9541000" />
+      <workItem from="1784000811754" duration="52000" />
+      <workItem from="1784000873817" duration="667000" />
+      <workItem from="1784001572724" duration="275000" />
+      <workItem from="1784001859663" duration="799000" />
+      <workItem from="1784080402970" duration="3860000" />
+      <workItem from="1784095657887" duration="39000" />
+      <workItem from="1784113231363" duration="211000" />
+      <workItem from="1784198683878" duration="135000" />
+      <workItem from="1784336547801" duration="2099000" />
+      <workItem from="1784340106880" duration="6923000" />
+      <workItem from="1784359731780" duration="2131000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
