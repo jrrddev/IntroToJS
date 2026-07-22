@@ -34,7 +34,7 @@ let score = 90;
  else {
      console.log ("you failed");
  }
-\
+
  //ternary operator
 //basic syntax logic --- condition ? expressionIfTrue : expressionIfFalse;
 const temperature = 30;
