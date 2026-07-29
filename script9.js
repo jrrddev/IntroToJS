@@ -44,3 +44,11 @@ console.log(Math.trunc(9.1)); // 9
 //If you need to get the square root or cube root of a number, you can use the Math.sqrt() and Math.cbrt() methods
 console.log(Math.sqrt(81)); // 9
 console.log(Math.cbrt(27)); // 3
+
+//Math.abs() returns the absolute value of a number, turning negatives into positives.
+console.log(Math.abs(-5)); //5
+console.log(Math.abs(5)); //5
+
+//Math.pow() takes two numbers and raise the first to the power of the second.
+console.log(Math.pow(2, 3)); //8
+console.log(Math.pow(6, 2)); //36
