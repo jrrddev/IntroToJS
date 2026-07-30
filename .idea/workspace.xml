@@ -6,18 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7917e739-3c2d-4def-81aa-f012a5c020c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fortunetellerproj.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BooleansAndNumbers/script11.js" beforeDir="false" afterPath="$PROJECT_DIR$/BooleansAndNumbers/script11.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +106,7 @@
       <workItem from="1785203846554" duration="4407000" />
       <workItem from="1785293711422" duration="881000" />
       <workItem from="1785373027538" duration="1578000" />
-      <workItem from="1785374890264" duration="301000" />
+      <workItem from="1785374890264" duration="1074000" />
     </task>
     <servers />
   </component>

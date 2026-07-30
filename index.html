@@ -1,20 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <script src="BooleansAndNumbers/script11.js"></script>
-
-  <style>
-    h1 {
-      color: green;
-    }
-    
-    button {
-        color: red
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript 101 Sandbox</title>
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Active script import -->
+  <script src="BooleansAndNumbers/script11.js"></script>
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <button onclick="alert('Button clicked!')">Click me</button>
+
+  <div class="wrapper">
+    
+    <!-- Header -->
+    <header>
+      <div class="brand">
+        <span class="brand-icon">JS</span>
+        <h1>JavaScript 101 Sandbox</h1>
+      </div>
+      <span class="subtitle">Welcome to JS Practice Environment</span>
+    </header>
+
+    <!-- Active Script Card -->
+    <section class="box">
+      <div class="box-title">Active Script</div>
+      
+      <div class="status-bar">
+        <div>
+          <span class="status-indicator"></span>
+          <span>BooleansAndNumbers/script11.js</span>
+        </div>
+        <span style="color: var(--subtle); font-size: 0.75rem;">Loaded in &lt;head&gt;</span>
+      </div>
+
+      <p class="hint-text">
+        Open Developer Tools (<kbd>F12</kbd> or Inspect → <strong>Console</strong>) to view script execution output.
+      </p>
+
+      <div class="button-row">
+        <button onclick="alert('Script is loaded and running.')">Run Alert Test</button>
+        <button class="secondary" onclick="console.log('Manual console output test.')">Console Test</button>
+      </div>
+    </section>
+
+    <!-- Script Catalog -->
+    <section class="box">
+      <div class="box-title">Available Practice Scripts</div>
+      <p class="hint-text" style="margin-top: 0; margin-bottom: 1rem;">
+        Change the <code>&lt;script src="..."&gt;</code> in <code>index.html</code> to test any script below:
+      </p>
+
+      <div class="grid">
+        <div class="file-card">
+          <span class="file-folder">VariablesAndStrings</span>
+          <span class="file-name">script.js</span>
+          <span class="file-desc">Variables, string concatenation, BigInt</span>
+        </div>
+        <div class="file-card">
+          <span class="file-folder">VariablesAndStrings</span>
+          <span class="file-name">script1.js</span>
+          <span class="file-desc">Template literals, typeof, null</span>
+        </div>
+        <div class="file-card">
+          <span class="file-folder">VariablesAndStrings</span>
+          <span class="file-name">script2.js</span>
+          <span class="file-desc">Indexing, string interpolation, indexOf</span>
+        </div>
+        <div class="file-card">
+          <span class="file-folder">VariablesAndStrings</span>
+          <span class="file-name">script3.js</span>
+          <span class="file-desc">ASCII codes, includes(), slice()</span>
+        </div>
+        <div class="file-card">
+          <span class="file-folder">VariablesAndStrings</span>
+          <span class="file-name">script4.js</span>
+          <span class="file-desc">Casing, trim(), replace(), repeat()</span>
+        </div>
+
+        <div class="file-card">
+          <span class="file-folder">BooleansAndNumbers</span>
+          <span class="file-name">script5.js</span>
+          <span class="file-desc">Arithmetic & increment operators</span>
+        </div>
+        <div class="file-card">
+          <span class="file-folder">BooleansAndNumbers</span>
+          <span class="file-name">script6.js</span>
+          <span class="file-desc">Compound assignment, loose vs strict equality</span>
+        </div>
+        <div class="file-card">
+          <span class="file-folder">BooleansAndNumbers</span>
+          <span class="file-name">script7.js</span>
+          <span class="file-desc">Conditionals & ternary operator</span>
+        </div>
+        <div class="file-card">
+          <span class="file-folder">BooleansAndNumbers</span>
+          <span class="file-name">script8.js</span>
+          <span class="file-desc">Logical AND/OR, Nullish coalescing (??)</span>
+        </div>
+        <div class="file-card">
+          <span class="file-folder">BooleansAndNumbers</span>
+          <span class="file-name">script9.js</span>
+          <span class="file-desc">Math object methods & random numbers</span>
+        </div>
+        <div class="file-card">
+          <span class="file-folder">BooleansAndNumbers</span>
+          <span class="file-name">script10.js</span>
+          <span class="file-desc">NaN properties & Number.isNaN</span>
+        </div>
+        <div class="file-card">
+          <span class="file-folder">BooleansAndNumbers</span>
+          <span class="file-name">script11.js</span>
+          <span class="file-desc">parseFloat, parseInt, toFixed</span>
+        </div>
+        <div class="file-card">
+          <span class="file-folder">BooleansAndNumbers</span>
+          <span class="file-name">fortunetellerproj.js</span>
+          <span class="file-desc">Fortune teller mini-project</span>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 JavaScript 101. All Rights Reserved. Built by <a href="https://jrrd.dev" target="_blank" rel="noopener noreferrer">jrrd</a></p>
+    </footer>
+
+  </div>
+
 </body>
 </html>

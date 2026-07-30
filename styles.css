@@ -1,0 +1,223 @@
+/* Clean Minimalist Developer Theme (GitHub/Vercel Aesthetic) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --bg: #09090b;
+  --panel: #141417;
+  --panel-hover: #1c1c20;
+  --border: #27272a;
+  --border-light: #3f3f46;
+  --text: #fafafa;
+  --muted: #a1a1aa;
+  --subtle: #71717a;
+  --js-yellow: #f7df1e;
+  --radius: 8px;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 100vh;
+  padding: 2.5rem 1rem;
+}
+
+.wrapper {
+  max-width: 840px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.brand-icon {
+  background: var(--js-yellow);
+  color: #000;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 13px;
+  padding: 3px 7px;
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.subtitle {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+/* Section Box */
+.box {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+}
+
+.box-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+/* Active Status Strip */
+.status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000;
+  border: 1px solid var(--border);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.825rem;
+}
+
+.status-indicator {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: #22c55e;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.hint-text {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.hint-text kbd {
+  background: #1f1f23;
+  border: 1px solid var(--border-light);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.775rem;
+  color: var(--text);
+}
+
+/* Action Buttons */
+.button-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+button {
+  background: #ffffff;
+  color: #000000;
+  border: 1px solid #ffffff;
+  padding: 0.5rem 1rem;
+  font-size: 0.825rem;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button.secondary {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+button.secondary:hover {
+  background: var(--panel-hover);
+}
+
+/* File Grid Catalog */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.75rem;
+}
+
+.file-card {
+  background: #000;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.85rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  transition: border-color 0.15s ease;
+}
+
+.file-card:hover {
+  border-color: var(--border-light);
+}
+
+.file-folder {
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--subtle);
+  letter-spacing: 0.05em;
+}
+
+.file-name {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: #38bdf8;
+}
+
+.file-desc {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--subtle);
+  padding-top: 1rem;
+}
+
+footer a {
+  color: var(--muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+}
+
+footer a:hover {
+  color: var(--text);
+}
