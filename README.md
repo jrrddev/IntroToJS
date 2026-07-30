@@ -1,14 +1,15 @@
-# JavaScript Sandbox 💛
+# JavaScript Sandbox
 
 A repository created to track my basic JavaScript learnings and study progress. Feel free to explore, clone, or use it to learn fundamental JavaScript concepts, syntax, and functions!
 
 ---
 
-## 📚 Repository Structure & Topics Covered
+## Repository Structure & Topics Covered
 
-The codebase is organized into topic-focused folders containing step-by-step code exercises and mini-projects:
+> [!NOTE]
+> This repository is constantly updated whenever I learn or experiment with new JavaScript concepts. As a result, the summary table below might not always reflect the latest files or updates immediately!
 
-### 🔤 `VariablesAndStrings/`
+### `VariablesAndStrings/`
 Focuses on string manipulation, variable declarations, data types, template literals, and ASCII methods.
 
 | File | Topic / Concept Covered | Key Functions & Features |
@@ -19,7 +20,7 @@ Focuses on string manipulation, variable declarations, data types, template lite
 | **`script3.js`** | ASCII & String Methods | `charCodeAt()`, `fromCharCode()`, `.includes()`, `.slice()` (positive & negative indices) |
 | **`script4.js`** | String Transformation | `.toUpperCase()`, `.toLowerCase()`, `.trim()`, `.trimStart()`, `.replace()`, `.repeat()` |
 
-### 🔢 `BooleansAndNumbers/`
+### `BooleansAndNumbers/`
 Focuses on mathematical operations, boolean logic, control flow, number parsing, type checks, and mini-projects.
 
 | File | Topic / Concept Covered | Key Functions & Features |
@@ -33,14 +34,14 @@ Focuses on mathematical operations, boolean logic, control flow, number parsing,
 | **`script11.js`** | Number Parsing & Formatting | `parseFloat()`, `parseInt()`, `.toFixed()` for precision and currency formatting |
 | **`fortunetellerproj.js`** | Mini-Project: Fortune Teller | Practical integration of `Math.random()`, `Math.floor()`, `if / else if` logic, and strict equality |
 
-### 🌐 Root Directory
+### Root Directory
 | File | Topic / Concept Covered | Key Functions & Features |
 | :--- | :--- | :--- |
 | **`index.html`** | HTML & DOM Integration | Linking external JavaScript scripts via `<script src="...">`, CSS styling, and inline `onclick` event handlers |
 
 ---
 
-## 🚀 How to Use / Run
+## How to Use / Run
 
 1. **Clone the repository:**
    ```bash
@@ -62,11 +63,15 @@ Focuses on mathematical operations, boolean logic, control flow, number parsing,
 
 ---
 
-## 🎯 Purpose & Learnings
+## Purpose & Learnings
 
 - Hands-on practice with JavaScript syntax, type coercion, and core operators.
 - Practical understanding of built-in utility objects (`Math`, `String`, `Number`).
 - Clean, structured reference guides for beginner and intermediate JavaScript topics.
 
-Happy Coding! 🚀
+---
+
+Happy Coding! 
+
+<sub>"In jrrddev we trust"</sub>
 
