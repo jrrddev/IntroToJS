@@ -19,6 +19,16 @@ const greetings4 = () => {
 //When first learning about functions, you had to wrap the function body in curly braces.
 //But if your function body only contains a single line of code, you can remove the curly braces
 const greetings5 = name => console.log("Hello, " + name + "!");
+
+//another idk tip:
+//The => (called the fat arrow) is the syntax operator used in JavaScript to define an arrow function.
+//Instead of typing the word function, the arrow tells JavaScript: "Take the inputs on the left and run the code on the right."
+// Traditional
+const add = function(a, b) { return a + b; };
+
+// Arrow syntax
+const add1 = (a, b) => { return a + b; };
+
 /*
 It is important to note that removing the parentheses and curly braces for regular function syntax will not work.
 You will get errors if you tried to do something like this
